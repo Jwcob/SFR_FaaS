@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/se21m033ex3-db/databases/se21m033ex3",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:mycs"
+    }
+  }
+}
